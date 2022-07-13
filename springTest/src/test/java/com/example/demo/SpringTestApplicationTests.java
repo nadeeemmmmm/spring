@@ -20,7 +20,7 @@ class SpringTestApplicationTests {
 	public void test() {
 		System.out.println("Enter");
 		Student s=new Student();
-		s.setName("Peter");
+		s.setName("Johnson");
 		s.setEmail("Pet@gmail.com");
 		assertNotNull(repo.save(s));
 	}
